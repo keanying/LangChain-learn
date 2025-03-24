@@ -8,9 +8,9 @@ from langgraph.prebuilt import ToolNode
 
 os.environ['LANGSMITH_TRACING'] = 'true'
 os.environ['OPENAI_BASE_URL'] = 'https://api.91ai.me/v1'
-os.environ['LANGSMITH_API_KEY'] = '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'
-os.environ['OPENAI_API_KEY'] = 'sk-zmTlAse1jQo2r04WBeC616Ed62A64bC38190F50f8c8eDc0f'
-
+os.environ['LANGSMITH_API_KEY'] = 'lsv2_pt_65486ff7f8f3488b86fba4d4108dfec8_c86'
+os.environ['OPENAI_API_KEY'] = 'sk-zmTlAse1jQo2r04WBeC616Ed62A64b'
+os.environ["SERPAPI_API_KEY"] = 'eeb9669dba516b9173fc5791802c46e772011974'
 
 @tool
 def search(query: str):
